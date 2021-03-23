@@ -32,7 +32,7 @@ author_bio: Hi, my name is Paavan Kumar. I built this site using devlopr-jekyll 
 author_email: "190050051@iitb.ac.in"
 author_location: India
 author_website_url: "https://paavanindela.github.io"
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+typewrite-text: "01010000 01100001 01100001 01110110 01100001 01101110 00100000 01001001 01101110 01100100 01100101 01101100 01100001"
 
 # Experiences
 author_work_experiences:
@@ -50,9 +50,19 @@ author_work_experiences:
 #              visibility: true
 
 # Education
-author_education_details:
+author_education_details: 
+              - college_logo: school.png
+                college_name: St. Joseph's Public School, A.G.Palace
+                college_url: https://sjpsmalakpet.org/
+                college_degree: Secondary Education
+                visibility: true
+              - college_logo: fiitjee.png
+                college_name: FIITJEE Hyderabad
+                college_url: https://www.fiitjee.com/
+                description: Intermediate Education
+                visibility: true
               - college_logo: iitb.png
-                college_name: IITB
+                college_name: Indian Institute of Technology Bombay
                 college_url: https://www.cse.iitb.ac.in/
                 college_degree: Computer Science
                 description: Bachelor of Technology
