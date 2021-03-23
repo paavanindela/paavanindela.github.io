@@ -6,8 +6,8 @@ permalink: /blog/categories/guides/
 
 <h5> Projects by Course : {{ page.title }} </h5>
 
-<div class="card">
+<div class="row">
 {% for post in site.categories.guides %}
- <li class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li class="card blog-post"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>
